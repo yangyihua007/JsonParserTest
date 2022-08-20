@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	char*  jsonStr = "{\"na,me\":\"yangyihua\",\"age\":35,{\"address\":\"pengbu\",[{\"xueke\":\"yuwen\",\"score\":\"90\"},{\"shengao\":\"90cm\"}]}}";
+	char*  jsonStr = "{\"name\":\"yangyihua\",\"age\":35,{\"address\":\"pengbu\",[{\"xueke\":\"yuwen\",\"score\":\"90\"},{\"shengao\":\"90cm\"}]}}";
 
 	char*  jsonStr2 = "{\"name\':\"yangyihua\",\"age\":35,{\"address\":\"pengbu\",[{\"xueke\":\"yuwen\",\"score\":\"90\"},{\"shengao\":\"90cm\"}]}}";
 	JsonParser*  parser = NULL;
